@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Know Your Game</title>
+  </head>
+  <body>
+      
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Know Your Game</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#contact">Contact Me</a>
+          </div>
+          <form class="form-inline my-2 my-lg-0" method="GET" action="#" aria-required="true">
+            <input class="form-control mr-sm-2" id="input" type="search" placeholder="Search" aria-label="Search" name="name">
+            <button class="btn btn-outline-success my-2 my-sm-0" id="btnn" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="container-fluid" style="margin-bottom: 27rem;">
+          <div class="content">
+                <center><img class="image" src=""></center>
+                <h2 class="heading" style="visibility: hidden;">Minimum System Requirements:</h2>
+                <h3 class="name" style="font-size: 15px;"></h3>
+                <h3 class="cpu" style="font-size: 15px;"></h3>
+                <h3 class="ram" style="font-size: 15px;"></h3>
+                <h3 class="gpu" style="font-size: 15px;"></h3>
+                <h3 class="hdd" style="font-size: 15px;"></h3>
+                <h3 class="os" style="font-size: 15px;"></h3>
+          </div>
+      </div>
+
+
+      <div class="row">
+          <div class="col-md-11" style="margin: 0 auto; padding: 0px 0px 20px 0px;">
+            <p class="display-4" id="about" name="about">
+                About
+            </p>
+            <hr>
+            <p class="lead">
+                Search your favroite PC games and get their minimum requirements to run on your PC.
+                <i>Caution: </i>Type the name of the game correctly considering the upper and lower letters along with proper spelling and grammar.
+            </p>
+          </div>
+      </div>
+
+      <div class="container-fluid">
+          <div class="row-md-12">
+              <footer class="bottom navbar-light" style="background-color: black; color: white; text-align:center; margin: 0 auto;" id="contact" name="contact">
+                  <p>Made By: Adarsh01-debug</p>
+                  <p>Email: adarsh.official2299@gmail.com</p>
+              </footer>
+          </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></src=>
+    <src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></src=>
+    <src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></src=>
+
+    {% load static %} 
+    <script src="{% static 'app.js' %}"></script>
+  </body>
+</html>
